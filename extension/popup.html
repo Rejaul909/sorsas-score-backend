@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Sorsa Score</title>
+
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+
+  <main class="app">
+
+    <header class="header">
+
+      <div class="brand-icon">
+        S
+      </div>
+
+      <div class="brand-text">
+        <h1>Sorsa Score</h1>
+        <p>X profile score</p>
+      </div>
+
+    </header>
+
+
+    <section class="score-card">
+
+      <div class="label">
+        CURRENT SCORE
+      </div>
+
+      <div id="score" class="score">
+        —
+      </div>
+
+      <div id="username" class="username">
+        Open an X profile
+      </div>
+
+    </section>
+
+
+    <button id="refresh" class="refresh-btn">
+
+      <span class="refresh-icon">↻</span>
+
+      <span>Refresh Score</span>
+
+    </button>
+
+
+    <div id="status" class="status">
+      Open an X profile first
+    </div>
+
+
+    <footer class="footer">
+      <span class="dot"></span>
+      Sorsa Score
+    </footer>
+
+  </main>
+
+  <script src="score.js"></script>
+  <script src="popup.js"></script>
+
+</body>
+</html>
