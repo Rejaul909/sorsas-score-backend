@@ -1,0 +1,66 @@
+.sorsa-score-badge {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 4px !important;
+
+  margin-left: 5px !important;
+  padding: 2px 6px !important;
+
+  border: 1px solid rgba(80, 255, 170, 0.28) !important;
+  border-radius: 999px !important;
+
+  background: rgba(15, 25, 22, 0.92) !important;
+
+  color: #62ffad !important;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Arial, sans-serif !important;
+
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  line-height: 1.2 !important;
+
+  vertical-align: middle !important;
+
+  box-shadow:
+    0 0 8px rgba(50, 255, 150, 0.08),
+    inset 0 0 8px rgba(50, 255, 150, 0.03) !important;
+
+  white-space: nowrap !important;
+
+  transition:
+    transform 0.15s ease,
+    border-color 0.15s ease,
+    box-shadow 0.15s ease !important;
+}
+
+.sorsa-score-badge:hover {
+  transform: translateY(-1px) !important;
+
+  border-color: rgba(80, 255, 170, 0.55) !important;
+
+  box-shadow:
+    0 0 12px rgba(50, 255, 150, 0.14),
+    inset 0 0 10px rgba(50, 255, 150, 0.04) !important;
+}
+
+.sorsa-score-icon {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  width: 15px !important;
+  height: 15px !important;
+
+  border-radius: 50% !important;
+
+  background: #62ffad !important;
+  color: #07130d !important;
+
+  font-size: 9px !important;
+  font-weight: 800 !important;
+}
+
+.sorsa-score-number {
+  font-variant-numeric: tabular-nums !important;
+}
