@@ -1,1 +1,30 @@
 
+{
+  "manifest_version": 3,
+  "name": "Sorsa Score",
+  "version": "1.0.0",
+  "description": "Shows Sorsa Score next to X usernames.",
+  "permissions": [],
+  "host_permissions": [
+    "https://x.com/*",
+    "https://sorsas-score-backend.vercel.app/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://x.com/*"
+      ],
+      "js": [
+        "score.js",
+        "content.js"
+      ],
+      "css": [
+        "style.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
